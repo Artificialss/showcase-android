@@ -1,6 +1,7 @@
 # Artificialss Showcase — Android
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Platform: Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
 
 A small, standalone native Android app demonstrating our mobile engineering: **Kotlin + Jetpack Compose**,
 **MVVM with Clean Architecture**, **Koin** for dependency injection, and **Navigation Compose's type-safe routes**.
