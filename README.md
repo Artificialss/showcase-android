@@ -14,10 +14,10 @@ A splash screen, then two screens behind a bottom navigation bar:
 
 - **Splash** — fades in the brand logo and tagline on the brand-green background, then auto-navigates to Home.
 - **Home** — logo with an animated "Powered by AI" sign, headline, subtitle, and a CTA button that opens
-  [artificialss.ai](https://artificialss.ai) in the browser.
+  [artificialss.ai/portfolio](https://artificialss.ai/portfolio) in the browser.
 - **Portfolio** — a starry black-sky background with a `HorizontalPager` that auto-advances every 2 seconds
   through 5 projects (including this repo itself), each with an illustrated Canvas mockup and a tap-through
-  link to the real project. A small moon icon sits above the bottom navigation bar.
+  link to the real project.
 
 ## Architecture
 
@@ -39,7 +39,7 @@ ui/                  # Presentation (MVVM)
 ├── feature/portfolio/     # PortfolioViewModel + PortfolioScreen + Canvas mockups
 ├── navigation/            # Type-safe AppRoute, NavHost, bottom nav bar
 ├── theme/                 # Brand color tokens ported from the Next.js site's design system
-└── components/            # Logo, SpaceBackground, MoonBadge, URL launcher helper
+└── components/            # Logo, SpaceBackground, URL launcher helper
 
 di/                  # Koin module — one place wiring repository → use case → ViewModel
 ```

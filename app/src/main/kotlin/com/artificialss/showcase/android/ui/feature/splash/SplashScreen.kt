@@ -31,8 +31,8 @@ import com.artificialss.showcase.android.R
 import kotlinx.coroutines.delay
 
 private val BrandGreen = Color(0xFF347E67)
-private const val SPLASH_DELAY_MS = 2000L
-private const val FADE_DURATION_MS = 800
+private const val SPLASH_DELAY_MS = 700L
+private const val FADE_DURATION_MS = 400
 private const val SUBTITLE_ALPHA = 0.8f
 private val SPACING = 8.dp
 private val LOGO_SPACING = 24.dp

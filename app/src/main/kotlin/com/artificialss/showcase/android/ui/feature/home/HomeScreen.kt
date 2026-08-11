@@ -41,7 +41,7 @@ fun HomeScreen(viewModel: HomeViewModel = koinViewModel()) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        Logo(size = 120.dp)
+        Logo(size = 240.dp)
 
         Text(
             text = stringResource(R.string.hero_title),
