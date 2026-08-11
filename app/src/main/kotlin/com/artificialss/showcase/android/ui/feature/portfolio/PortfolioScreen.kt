@@ -38,6 +38,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.artificialss.showcase.android.R
 import com.artificialss.showcase.android.domain.model.PortfolioItem
+import com.artificialss.showcase.android.ui.components.MoonBadge
 import com.artificialss.showcase.android.ui.components.SpaceBackground
 import com.artificialss.showcase.android.ui.components.openUrl
 import kotlinx.coroutines.delay
@@ -54,6 +55,12 @@ fun PortfolioScreen(viewModel: PortfolioViewModel = koinViewModel()) {
 
     Box(modifier = Modifier.fillMaxSize()) {
         SpaceBackground(modifier = Modifier.fillMaxSize())
+
+        MoonBadge(
+            modifier = Modifier
+                .align(Alignment.BottomEnd)
+                .padding(bottom = 20.dp, end = 20.dp),
+        )
 
         Column(
             modifier = Modifier
