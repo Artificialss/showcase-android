@@ -16,7 +16,9 @@ rebuilt for phones with a bottom navigation bar and an auto-advancing portfolio 
 
 ## Demo
 
-[![Watch the demo](docs/screenshots/demo-thumbnail.png)](docs/screenshots/demo.mp4)
+[![Demo](docs/screenshots/demo.gif)](docs/screenshots/demo.mp4)
+
+_Click the preview for the full-quality video._
 
 ## What's in here
 
