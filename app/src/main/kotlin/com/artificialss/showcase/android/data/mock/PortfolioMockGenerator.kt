@@ -17,6 +17,13 @@ object PortfolioMockGenerator {
             url = "https://github.com/Artificialss/Showcase.Android",
         ),
         PortfolioItem(
+            id = "showcase-ios",
+            title = "Showcase.iOS",
+            subtitle = "Native SwiftUI showcase app — MVVM, Clean Architecture, and the modern @Observable pattern.",
+            tags = listOf("Swift", "SwiftUI", "MVVM"),
+            url = "https://github.com/Artificialss/Showcase.iOS",
+        ),
+        PortfolioItem(
             id = "showcase-cmm",
             title = "Showcase.CMM",
             subtitle = "Compose Multiplatform showcase app for Android & iOS — MVP architecture, custom Canvas charts.",

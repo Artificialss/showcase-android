@@ -11,6 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.DrawScope
 
 private val AndroidGreen = Color(0xFF3DDC84)
+private val IosBlue = Color(0xFF007AFF)
 private val NextBlack = Color(0xFF0A0A0A)
 private val PapasarPurple = Color(0xFF7C3AED)
 private val ArtificialssTeal = Color(0xFF347E67)
@@ -21,12 +22,50 @@ fun PortfolioMockup(id: String, modifier: Modifier = Modifier) {
     Canvas(modifier = modifier.fillMaxSize()) {
         when (id) {
             "showcase-android" -> drawAndroidMockup()
+            "showcase-ios" -> drawIosMockup()
             "showcase-cmm" -> drawCmmMockup()
             "showcase-nextjs" -> drawNextjsMockup()
             "papasar" -> drawPapasarMockup()
             else -> drawArtificialssMockup()
         }
     }
+}
+
+private fun DrawScope.drawIosMockup() {
+    drawRect(Color(0xFF0A0A0A))
+    val frameWidth = size.width * 0.34f
+    val frameLeft = (size.width - frameWidth) / 2
+    val frameTop = size.height * 0.08f
+    val frameHeight = size.height * 0.84f
+    drawRoundRect(
+        color = Color(0xFF1F1F1F),
+        topLeft = Offset(frameLeft, frameTop),
+        size = Size(frameWidth, frameHeight),
+        cornerRadius = CornerRadius(24f, 24f),
+    )
+    val padding = frameWidth * 0.12f
+    drawRoundRect(
+        color = IosBlue.copy(alpha = 0.3f),
+        topLeft = Offset(frameLeft + padding, frameTop + padding * 1.5f),
+        size = Size(frameWidth - padding * 2, frameHeight * 0.18f),
+        cornerRadius = CornerRadius(8f, 8f),
+    )
+    drawRoundRect(
+        color = IosBlue.copy(alpha = 0.2f),
+        topLeft = Offset(frameLeft + padding, frameTop + frameHeight * 0.32f),
+        size = Size(frameWidth - padding * 2, frameHeight * 0.28f),
+        cornerRadius = CornerRadius(8f, 8f),
+    )
+    val navTop = frameTop + frameHeight * 0.82f
+    drawRoundRect(
+        color = Color(0xFF141414),
+        topLeft = Offset(frameLeft, navTop),
+        size = Size(frameWidth, frameHeight * 0.18f),
+        cornerRadius = CornerRadius(0f, 0f),
+    )
+    val navCenterY = navTop + frameHeight * 0.09f
+    drawCircle(IosBlue, radius = 6f, center = Offset(frameLeft + frameWidth * 0.35f, navCenterY))
+    drawCircle(IosBlue.copy(alpha = 0.4f), radius = 6f, center = Offset(frameLeft + frameWidth * 0.65f, navCenterY))
 }
 
 private fun DrawScope.drawAndroidMockup() {
