@@ -8,6 +8,16 @@ A small, standalone native Android app demonstrating our mobile engineering: **K
 It recreates the same Hero and Portfolio content shown on [Showcase.NextJS](https://github.com/Artificialss/Showcase.NextJS),
 rebuilt for phones with a bottom navigation bar and an auto-advancing portfolio pager — no backend, no credentials.
 
+## Screenshots
+
+| Splash | Home | Portfolio |
+|--------|------|-----------|
+| ![Splash](docs/screenshots/splash.png) | ![Home](docs/screenshots/home.png) | ![Portfolio](docs/screenshots/portfolio.png) |
+
+## Demo
+
+[![Watch the demo](docs/screenshots/demo-thumbnail.png)](docs/screenshots/demo.mp4)
+
 ## What's in here
 
 A splash screen, then two screens behind a bottom navigation bar:
