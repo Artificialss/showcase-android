@@ -2,6 +2,7 @@
 .gradle/
 **/build/
 !gradle-wrapper.jar
+.gradletasknamecache
 
 # Kotlin
 .kotlin/
@@ -9,21 +10,40 @@
 # IDE — IntelliJ / Android Studio
 .idea/
 *.iml
+*.ipr
+*.iws
 captures/
+.navigation/
+local.properties
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+.externalNativeBuild/
+.cxx/
+*.hprof
+release/
+
+# Signing — never commit real keystores or signing secrets
+*.jks
+*.keystore
+*.p12
+keystore.properties
+
+# Lint / Proguard
+lint-results*.html
+lint-results*.xml
+proguard/
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Android
-local.properties
-.externalNativeBuild/
-.cxx/
-*.apk
-*.aab
-*.ap_
-*.dex
+# VS Code (if opened there for quick edits)
+.vscode/
 
 # Misc
 *.log

@@ -35,15 +35,15 @@ private val AiGreen = Color(0xFF3DDC84)
 private val WoodBrown = Color(0xFF5C3D2E)
 
 /**
- * The original brand logo image, unmodified, with an animated
- * "Powered by AI" sign overlay — the Android counterpart of the
- * web logo's wood-sign animation.
+ * The real Artificialss logo vector — the same mark used on artificialss.ai —
+ * with an animated "Powered by AI" sign overlay, the Android counterpart of
+ * the web logo's wood-sign animation.
  */
 @Composable
 fun Logo(modifier: Modifier = Modifier, animated: Boolean = true, size: Dp = 96.dp) {
     Box(modifier = modifier.size(size)) {
         Image(
-            painter = painterResource(R.drawable.app_logo),
+            painter = painterResource(R.drawable.artificial_fixed),
             contentDescription = stringResource(R.string.logo_content_description),
             modifier = Modifier.size(size),
         )

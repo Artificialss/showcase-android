@@ -66,7 +66,7 @@ fun SplashScreen(onNavigateToHome: () -> Unit, modifier: Modifier = Modifier) {
             verticalArrangement = Arrangement.Center,
         ) {
             Image(
-                painter = painterResource(R.drawable.app_logo),
+                painter = painterResource(R.drawable.artificial_fixed),
                 contentDescription = stringResource(R.string.logo_content_description),
                 modifier = Modifier
                     .fillMaxWidth(LOGO_WIDTH_FRACTION)
