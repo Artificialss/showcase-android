@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Artificialss Showcase</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_portfolio">Portfolio</string>
+    <string name="hero_title">From Idea to AI-Powered Prototype</string>
+    <string name="hero_subtitle">We help you build, launch, and scale your vision with expert software engineering and AI integration for early-stage ventures.</string>
+    <string name="hero_cta">Explore Our Services</string>
+    <string name="portfolio_badge">OUR WORK</string>
+    <string name="made_by_artificialss">Made by Artificialss</string>
+    <string name="portfolio_title">Portfolio</string>
+    <string name="portfolio_subtitle">A few of the products we\'ve shipped — including the public showcase repos this app is part of.</string>
+    <string name="portfolio_view_project">View project</string>
+    <string name="logo_content_description">Artificialss logo</string>
+</resources>
