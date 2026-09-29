@@ -50,3 +50,11 @@ proguard/
 *.tmp
 *.swp
 *~
+
+# Secrets and credentials: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+service-account*.json
