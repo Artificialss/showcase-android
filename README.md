@@ -6,7 +6,7 @@
 A small, standalone native Android app demonstrating our mobile engineering: **Kotlin + Jetpack Compose**,
 **MVVM with Clean Architecture**, **Koin** for dependency injection, and **Navigation Compose's type-safe routes**.
 
-It recreates the same Hero and Portfolio content shown on [Showcase.NextJS](https://github.com/Artificialss/Showcase.NextJS),
+It recreates the same Hero and Portfolio content shown on [Showcase.NextJS](https://github.com/Artificialss/showcase-nextjs),
 rebuilt for phones with a bottom navigation bar and an auto-advancing portfolio pager — no backend, no credentials.
 
 ## Screenshots
